@@ -1,0 +1,17 @@
+.about {
+    padding: 120px 0 107px 0;
+    background-color: #f6f6f6;
+}
+
+.subtitle-about {
+    margin-bottom: 17px;
+}
+
+@media (max-width: 575.98px) {
+    .about {
+        padding: 81px 0 76px 0;
+    }
+    .subtitle-about {
+        margin-bottom: 30px;
+    }
+}

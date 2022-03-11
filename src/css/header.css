@@ -1,0 +1,37 @@
+.header {
+    padding-top: 21px;
+}
+
+.menu__list {
+    padding: 0;
+    margin-bottom: 31px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__link {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--main-text-color);
+    transition: 0.5s;
+}
+
+.menu__link:hover {
+    color: var(--bold-text-color);
+}
+
+hr {
+    background-color: var(--main-text-color);
+    height: 0.5px;
+
+    margin: 0;
+}
+
+@media (max-width: 575.98px) {
+    .header {
+        display: none;
+    }
+}

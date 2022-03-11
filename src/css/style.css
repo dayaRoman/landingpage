@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import "header.css";
+@import "lang-switcher.css";
+@import "hero.css";
+@import "burger-menu.css";
+@import "about.css";
+@import "skills.css";
+@import "portfolio.css";
+@import "footer.css";
+
+* {
+    box-sizing: border-box;
+}
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --main-text-color: #828282;
+    --bold-text-color: #070707;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    color: var(--main-text-color);
+    font-weight: 400;
+
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 946px;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+
+.subtitle {
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    font-weight: bold;
+    color: var(--bold-text-color);
+}
+
+.text-content {
+    font-style: 18px;
+    line-height: 22px;
+    color: var(--bold-text-color);
+    font-weight: normal;
+    text-align: center;
+}
+
+@media (max-width: 767.98px) {
+    .container {
+        max-width: 660px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .container {
+        max-width: 85%;
+    }
+}

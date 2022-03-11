@@ -1,0 +1,25 @@
+.lang-switcher {
+    list-style-type: none;
+    transform: rotate(-90deg);
+
+    margin-top: 40px;
+    display: flex;
+    gap: 6px;
+    justify-self: center;
+    transition: all 1s;
+}
+
+.lang-switcher__link {
+    text-decoration: none;
+    color: var(--main-text-color);
+    font-weight: 700;
+}
+
+.lang-switcher__item:first-child {
+    padding-right: 6px;
+    border-right: 2px solid var(--bold-text-color);
+}
+
+.active {
+    color: var(--bold-text-color);
+}
