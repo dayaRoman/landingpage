@@ -1,3 +1,6 @@
+import Burger from './burger.js';
+import LangSwitcher from './lang-swither.js';
+
 const menu = document.querySelectorAll(".menu__link");
 const links = document.querySelectorAll("a");
 
@@ -13,4 +16,7 @@ menu.forEach((item) => {
         handleMenuClick(e.target.dataset.menuLink);
     });
 });
+
+Burger.burgerMenu();
+LangSwitcher.switchLanguage();
 
